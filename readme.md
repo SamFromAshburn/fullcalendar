@@ -1,6 +1,7 @@
-
-FullCalendar - Full-sized drag & drop event calendar
+Planning Calendar - Full-sized drag & drop planning calendar
 ====================================================
+
+Rather than keeping track of an exact time of an event, this is a general planning calendar for major deliveries. This calendar includes the ability to place events into buckets (For example: Front page, Sports, Business).
 
 This document describes how to modify or contribute to the FullCalendar project. If you are looking for end-developer documentation, please visit the [project homepage][fc-homepage].
 
