@@ -8,4 +8,4 @@ Getting Set Up
 
 Clone the planning calendar's git repo:
 
-	git clone git://github.com/samfromashburn/fullcalendar.git
+	git clone git://github.com/samfromashburn/planningcalendar.git
