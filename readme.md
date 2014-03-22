@@ -47,3 +47,11 @@ Writing Tests
 -------------
 
 When fixing a bug or writing a feature, please make a corresponding HTML file in the `./tests/` directory to visually demonstrate your work. If the test requires user intervention to prove its point, please write instructions for the user to follow. Explore the existing tests for more info.
+
+
+[fc-homepage]: http://arshaw.com/fullcalendar/
+[git]: http://git-scm.com/
+[node]: http://nodejs.org/
+[grunt-cli]: http://gruntjs.com/getting-started#installing-the-cli
+[bower]: http://bower.io/
+[jq-readme]: https://github.com/jquery/jquery/blob/master/README.md#what-you-need-to-build-your-own-jquery
