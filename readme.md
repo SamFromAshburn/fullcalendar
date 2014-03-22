@@ -3,7 +3,7 @@ Planning Calendar - Full-sized drag & drop planning calendar
 
 Rather than keeping track of an exact time of an event, this is a general planning calendar for major deliveries. This calendar includes the ability to place events into buckets (For example: Front page, Sports, Business). In addition, you will be able to drag events onto the calendar from an unscheduled list.
 
-Getting Set Up to contribute to Project
+Getting Set Up to contribute or build
 --------------
 
 You will need [Git][git], [Node][node], and NPM installed. For clarification, please view the [jQuery readme][jq-readme], which requires a similar setup.
@@ -12,11 +12,11 @@ Also, you will need the [grunt-cli][grunt-cli] and [bower][bower] packages insta
 
 	npm install -g grunt-cli bower
 
-Then, clone FullCalendar's git repo:
+Then, clone PlanningCalendar's git repo:
 
 	git clone git://github.com/samfromashburn/planningcalendar.git
 
-Enter the directory and install FullCalendar's development dependencies:
+Enter the directory and install PlanningCalendar's development dependencies:
 
 	cd planningcalendar && npm install
 
