@@ -1,9 +1,9 @@
 
 setDefaults({
-	allDaySlot: true,
+	allDaySlot: false,
 	allDayText: 'all-day',
 	firstHour: 6,
-	slotMinutes: 30,
+	slotMinutes: 60,
 	defaultEventMinutes: 120,
 	axisFormat: 'h(:mm)tt',
 	timeFormat: {
@@ -14,7 +14,7 @@ setDefaults({
 	},
 	minTime: 0,
 	maxTime: 24,
-	slotEventOverlap: true
+	slotEventOverlap: false
 });
 
 
@@ -22,7 +22,7 @@ setDefaults({
 // TODO: test liquid width, especially in IE6
 
 
-function AgendaView(element, calendar, viewName) {
+function AgendaView(element, calendar, viewName, categories) {
 	var t = this;
 	
 	
@@ -240,6 +240,8 @@ function AgendaView(element, calendar, viewName) {
 		s =
 			"<table class='fc-agenda-slots' style='width:100%' cellspacing='0'>" +
 			"<tbody>";
+
+		//TODO: Customize here to add groupings.	
 		d = zeroDate();
 		maxd = addMinutes(cloneDate(d), maxMinute);
 		addMinutes(d, minMinute);
@@ -249,7 +251,6 @@ function AgendaView(element, calendar, viewName) {
 			s +=
 				"<tr class='fc-slot" + i + ' ' + (!minutes ? '' : 'fc-minor') + "'>" +
 				"<th class='fc-agenda-axis " + headerClass + "'>" +
-				((!slotNormal || !minutes) ? formatDate(d, opt('axisFormat')) : '&nbsp;') +
 				"</th>" +
 				"<td class='" + contentClass + "'>" +
 				"<div style='position:relative'>&nbsp;</div>" +
