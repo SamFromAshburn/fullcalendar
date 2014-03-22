@@ -1,16 +1,16 @@
 {
   "scope": "none",
   "packages": {
-    "fullcalendar": {
+    "planningcalendar": {
       "modules": [
-        "fullcalendar",
-        "fullcalendar.print",
+        "planningcalendar",
+        "planningcalendar.print",
         "gcal"
       ]
     }
   },
   "modules": {
-    "fullcalendar": {
+    "planningcalendar": {
       "scripts": [
         "src/intro.js",
         "src/defaults.js",
@@ -45,7 +45,7 @@
         "src/agenda/agenda.css"
       ]
     },
-    "fullcalendar.print": {
+    "planningcalendar.print": {
       "styles": [
         "src/common/print.css"
       ]

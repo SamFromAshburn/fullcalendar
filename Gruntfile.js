@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 
 	// Parse config files
 	var packageConfig = grunt.file.readJSON('package.json');
-	var pluginConfig = grunt.file.readJSON('fullcalendar.jquery.json');
+	var pluginConfig = grunt.file.readJSON('planningcalendar.jquery.json');
 	
 	// This will eventually get passed to grunt.initConfig()
 	// Initialize multitasks...
@@ -71,7 +71,7 @@ module.exports = function(grunt) {
 			preserveComments: 'some' // keep comments starting with /*!
 		},
 		expand: true,
-		src: 'build/out/fullcalendar.js', // only do it for fullcalendar.js
+		src: 'build/out/planningcalendar.js', // only do it for fullcalendar.js
 		ext: '.min.js'
 	}
 
@@ -100,7 +100,7 @@ module.exports = function(grunt) {
 		expand: true,
 		cwd: 'build/out/',
 		src: [ '*.js', '*.css' ],
-		dest: 'build/archive/fullcalendar/'
+		dest: 'build/archive/planningcalendar/'
 	};
 
 	config.copy.archiveJQuery = {
@@ -146,8 +146,8 @@ module.exports = function(grunt) {
 		path = path.replace('../lib/jquery/jquery.js', '../lib/jquery.min.js');
 		path = path.replace('../lib/jquery-ui/ui/jquery-ui.js', '../lib/jquery-ui.custom.min.js');
 		path = path.replace('../lib/jquery-ui/themes/', '');
-		path = path.replace('../build/out/', '../fullcalendar/');
-		path = path.replace('/fullcalendar.js', '/fullcalendar.min.js');
+		path = path.replace('../build/out/', '../planningcalendar/');
+		path = path.replace('/planningcalendar.js', '/planningcalendar.min.js');
 		return path;
 	}
 
@@ -176,7 +176,7 @@ module.exports = function(grunt) {
 	/* Bower Component (http://bower.io/)
 	----------------------------------------------------------------------------------------------------*/
 
-	grunt.registerTask('bower', 'Build the FullCalendar Bower component', [
+	grunt.registerTask('bower', 'Build the PlanningCalendar Bower component', [
 		'clean:modules',
 		'clean:bower',
 		'modules',
@@ -219,7 +219,7 @@ module.exports = function(grunt) {
 	/* CDNJS (http://cdnjs.com/)
 	----------------------------------------------------------------------------------------------------*/
 
-	grunt.registerTask('cdnjs', 'Build files for CDNJS\'s hosted version of FullCalendar', [
+	grunt.registerTask('cdnjs', 'Build files for CDNJS\'s hosted version of PlanningCalendar', [
 		'clean:modules',
 		'clean:cdnjs',
 		'modules',

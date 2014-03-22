@@ -1,5 +1,5 @@
 {
-  "name": "fullcalendar",
+  "name": "planningcalendar",
   "version": "1.6.4",
 
   "dependencies": {
@@ -9,9 +9,9 @@
     "jquery-ui": "~1.10.3"
   },
 
-  "title": "FullCalendar",
-  "description": "Full-sized drag & drop event calendar",
-  "keywords": [ "calendar", "event", "full-sized" ],
+  "title": "PlanningCalendar",
+  "description": "Full-sized planning drag & drop event calendar",
+  "keywords": [ "calendar", "event", "planning" ],
 
   "homepage": "http://arshaw.com/fullcalendar/",
   "demo": "http://arshaw.com/fullcalendar/",
@@ -27,8 +27,8 @@
   ],
 
   "author": {
-    "name": "Adam Shaw",
-    "email": "arshaw@arshaw.com",
+    "name": "Adam Shaw & Sam Stange",
+    "email": "arshaw@arshaw.com, sam.stange@gmail.com",
     "url": "http://arshaw.com/"
   },
   "copyright": "2013 Adam Shaw"

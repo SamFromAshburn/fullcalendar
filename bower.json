@@ -1,5 +1,5 @@
 {
-  "name": "fullcalendar",
+  "name": "planningcalendar",
   "version": "1.6.4",
   "devDependencies": {
     "jquery": "~1.10.2",
