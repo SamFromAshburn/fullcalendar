@@ -272,14 +272,14 @@ function DayEventRenderer() {
 				"'" +
 			">" +
 			"<div class='fc-event-inner'>";
-		if (!event.allDay && segment.isStart) {
-			html +=
-				"<span class='fc-event-time'>" +
-				htmlEscape(
-					formatDates(event.start, event.end, opt('timeFormat'))
-				) +
-				"</span>";
-		}
+		// if (!event.allDay && segment.isStart) {
+		// 	html +=
+		// 		"<span class='fc-event-time'>" +
+		// 		htmlEscape(
+		// 			formatDates(event.start, event.end, opt('timeFormat'))
+		// 		) +
+		// 		"</span>";
+		// }
 		html +=
 			"<span class='fc-event-title'>" +
 			htmlEscape(event.title || '') +
