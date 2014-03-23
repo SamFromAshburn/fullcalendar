@@ -3,6 +3,9 @@ Planning Calendar - Full-sized drag & drop planning calendar
 
 Rather than keeping track of an exact time of an event, this is a general planning calendar for major deliveries. This calendar includes the ability to place events into buckets (For example: Front page, Sports, Business). In addition, you will be able to drag events onto the calendar from an unscheduled list.
 
+
+![alt tag](https://github.com/SamFromAshburn/planningcalendar/blob/master/screenshots/externaldragging.jpg)
+
 Getting Set Up to contribute or build
 --------------
 
